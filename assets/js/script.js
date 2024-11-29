@@ -159,7 +159,6 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 
-
 //inspection blocked
 document.addEventListener('contextmenu', (event) => event.preventDefault());
 document.addEventListener('keydown', (event) => {
@@ -167,3 +166,6 @@ document.addEventListener('keydown', (event) => {
         event.preventDefault();
     }
 });
+
+
+
